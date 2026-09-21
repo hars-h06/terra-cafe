@@ -30,14 +30,9 @@ attribute on `#tour-stage` in `index.php`.
 
 ## Run it
 
-```bash
-# PHP 7.4 or newer
-php -S localhost:8000
-# then open http://localhost:8000
-```
+## 🌐 Live Demo
 
-Or drop the folder into `htdocs/` (XAMPP) / `www/` (WAMP, Laragon) and visit
-`http://localhost/terra-cafe/`. Any shared host with PHP works — upload and go.
+👉 https://terra-cafe.onrender.com/
 
 ## Editing
 
@@ -66,6 +61,11 @@ table — it is six lines near the top of the file.
 * No jQuery, no bundler, no external JS. Fonts come from Google Fonts; self-host them
   by dropping the files into `assets/` if you would rather not call out.
 * Animations respect `prefers-reduced-motion`, and every interactive control is keyboard reachable.
+
+
+**Live:** https://terra-cafe.onrender.com/
+
+**Repository:** https://github.com/hars-h06/terra-cafe
 
 ## Structure
 
